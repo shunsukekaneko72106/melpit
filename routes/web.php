@@ -18,6 +18,10 @@ Auth::routes();
 //商品詳細
 Route::get('items/{item}', 'ItemsController@showItemDetail')->name('item');
 
+Route::get('email-newsletter', 'EmailNewsletterController@sendEmailNewsletterForm')->name('email-newsletter');
+
+
+
 //出品系
 Route::middleware('auth')
 ->group(function () {
