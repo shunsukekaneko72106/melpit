@@ -1,21 +1,67 @@
-<?php 
+<?php
 //メリマガ登録画面
 
+
+$maker = array(
+    array('apple', 'Uber',array('日本製','韓国製')), array('NEC', array('日本製','韓国製')), array('sony', array('日本製','韓国製')), array('Sharp' ,array('日本製','韓国製')));
+$type = array('Note', 'Desktop');
+
+
+
+$item_dat = array('アイテム',array('2021','2022'));
+
+
+
+$item_test = array(array(array(array('2021','売れすぎてごめんなさい','3993', 'ボストンバッグ'),array('2021','木のスプーン','TEU345', '安いスプーン'))));
+
+echo '<pre>';
+var_dump($item_test);
+echo '</pre>';
+
+foreach($item_test[0][0][0] as $item => $dat){
+    echo $item.':'.$dat;
+}
+
+//   echo $pc_name.':'.$bland;
+  // foreach($bland as $D_key => $D_bland){
+  //   // echo $D_bland;
+  // }
+
+
+
+
+
+
+
+// echo '<pre>';
+// var_dump($maker[0][2]);
+// echo '</pre>';
+
+// foreach($maker[0][2] as $pc_name => $bland){
+//   echo $pc_name.':'.$bland;
+  // foreach($bland as $D_key => $D_bland){
+  //   // echo $D_bland;
+  // }
+
+//   // echo '<pre>';
+//   // echo $bland[0];
+//   // echo '</pre>';
+// }
 
 
 
 //$D_item_arr['item_dat']と$D_item_arr['order']の配列が存在している
+//$d_key(日にち)を$value（日にち以下のデータ）で
+// foreach($D_item_arr['item_dat'][$p_y][$p_m] as $d_key => $value){
 
-foreach($D_item_arr['item_dat'][$p_y][$p_m] as $d_key => $value){
-
-  foreach($value as $d_value){
-
-
-    var_dump($D_item_arr['order'][$p_y][$p_m][$d_key['seles_srial']][0]['kensuu']);
-  }
+//   foreach($value as $d_value){
 
 
-}
+//     var_dump($D_item_arr['order'][$p_y][$p_m][$d_key['seles_srial']][0]['kensuu']);
+//   }
+
+
+// }
 
 
 
@@ -24,7 +70,7 @@ foreach($D_item_arr['item_dat'][$p_y][$p_m] as $d_key => $value){
 
 ?>
 
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="ja">
 <head>
   <meta charset="UTF-8">
@@ -55,6 +101,6 @@ foreach($D_item_arr['item_dat'][$p_y][$p_m] as $d_key => $value){
   </p>
     <input type="submit" value="送信する">
   </form>
-  
+
 </body>
-</html>
+</html> -->
