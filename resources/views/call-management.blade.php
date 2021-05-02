@@ -9,8 +9,6 @@
 
 
 ?>
-
-
 <!doctype html>
 <html lang="en">
     <head>
@@ -18,9 +16,6 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="{{ asset('/css/call-management.blade.css') }}">
 
-        <script>
-            console.log('テスト');
-        </script>
         <title>架電管理画面</title>
     </head>
     <body>
@@ -29,14 +24,14 @@
         <div class="wrapper">
 
     <header>
-    <h1>レコーダー</h1>
+        <h1>レコーダ</h1>
     </header>
 
     <section class="main-controls">
-    <canvas class="visualizer" height="60px"></canvas>
+        <canvas class="visualizer" height="60px"></canvas>
         <div id="buttons">
-            <button class="record">Record</button>
-            <button class="stop">Stop</button>
+            <button class="record">再生</button>
+            <button class="stop">停止</button>
         </div>
     </section>
 
@@ -51,7 +46,6 @@
     <input type="checkbox" id="toggle">
     <aside>
     </aside>
-    <script src="scripts/app.js"></script>
 
     </body>
 </html>
