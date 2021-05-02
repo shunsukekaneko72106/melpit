@@ -17,8 +17,12 @@ Auth::routes();
 
 //商品詳細
 Route::get('items/{item}', 'ItemsController@showItemDetail')->name('item');
-
+//メルマガ画面
 Route::get('email-newsletter', 'EmailNewsletterController@sendEmailNewsletterForm')->name('email-newsletter');
+//音声データ送信
+Route::get('call-management', 'SendVoiceDataController@sendVoiceDataForm')->name('call-management');
+
+
 
 
 

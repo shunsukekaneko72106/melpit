@@ -19,3 +19,4 @@ document.querySelector('.image-picker input')
     reader.readAsDataURL(input.files[0]);
 });
 
+
