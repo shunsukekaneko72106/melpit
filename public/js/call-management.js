@@ -11,7 +11,7 @@ const canvas = document.querySelector('.visualizer');
 //レコーダー自体クラス
 const mainSection = document.querySelector('.main-controls');
 // 録音していないときに停止ボタンを無効にする
-stop.disabled = false;
+stop.disabled = true;
 //ビットマップの設定
 let audioCtx;
 //グラフィックキャンパス要素
@@ -141,7 +141,7 @@ function visualize(stream) {
 
     source.connect(analyser);
     //analyser.connect(audioCtx.destination);
-
+    console.log('=========')
     draw();
 
     //アニメーションを描画する関数
