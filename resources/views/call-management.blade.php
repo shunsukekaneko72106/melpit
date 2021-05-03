@@ -29,7 +29,7 @@
                 <!-- ビットマップ -->
                 <canvas class="visualizer" height="80px"></canvas>
                 <div id="buttons">
-                    <button class="record">再生</button>
+                    <button class="record">録音</button>
                     <button class="stop">停止</button>
                 </div>
             </section>

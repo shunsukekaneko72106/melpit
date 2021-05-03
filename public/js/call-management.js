@@ -37,7 +37,7 @@ if (navigator.mediaDevices.getUserMedia) {
         record.onclick = function() {
         mediaRecorder.start();
         console.log(mediaRecorder.state);
-        console.log("recorder started");
+        console.log("録音開始");
         record.style.background = "red";
 
         stop.disabled = false;
@@ -47,7 +47,7 @@ if (navigator.mediaDevices.getUserMedia) {
         stop.onclick = function() {
         mediaRecorder.stop();
         console.log(mediaRecorder.state);
-        console.log("recorder stopped");
+        console.log("録音停止");
         record.style.background = "";
         record.style.color = "";
         // mediaRecorder.requestData();
@@ -141,7 +141,6 @@ function visualize(stream) {
 
     source.connect(analyser);
     //analyser.connect(audioCtx.destination);
-    console.log('=========')
     draw();
 
     //アニメーションを描画する関数
