@@ -1,5 +1,4 @@
 * {
-    margin: 0;
     padding: 0;
     box-sizing: border-box;
     }
@@ -19,12 +18,12 @@
         flex-direction: column;
     }
 
-    h1, h2 {
+    /* h1, h2 {
         font-size: 2rem;
         text-align: center;
         font-weight: normal;
         padding: 0.5rem 0 0 0;
-    }
+    } */
 
     .main-controls {
         padding: 0.5rem 0;
@@ -167,4 +166,8 @@
         }
     }
 
-
+    h2{
+        background-color: #000080;
+        color: seashell;
+        margin-top: 20px;
+    }

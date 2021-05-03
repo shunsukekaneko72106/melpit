@@ -6,15 +6,15 @@
 
 */
 
-
-
 ?>
 <!doctype html>
 <html lang="en">
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="{{ asset('/css/call-management.blade.css') }}">
+        <link rel="stylesheet" href="{{ asset('/css/call-management.css') }}">
+        <script src="{{ asset('/js/call-management.js') }}"></script>
+
 
         <title>架電管理画面</title>
     </head>
