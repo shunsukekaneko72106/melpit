@@ -70,7 +70,7 @@ if (navigator.mediaDevices.getUserMedia) {
 
         clipContainer.classList.add('clip');
         audio.setAttribute('controls', '');
-        deleteButton.textContent = 'Delete';
+        deleteButton.textContent = '削除';
         deleteButton.className = 'delete';
 
         //録音ファイルがあった場合にはファイル名を表示させる
