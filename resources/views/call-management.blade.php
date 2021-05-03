@@ -39,15 +39,15 @@
         </div>
 
         <label for="toggle">❔</label>
-    <input type="checkbox" id="toggle">
-    <aside>
-        <h2>Information</h2>
+            <input type="checkbox" id="toggle">
+            <aside>
+                <h2>Information</h2>
 
-        <p>Web dictaphone is built using <a href="https://developer.mozilla.org/en-US/docs/Web/API/Navigator.getUserMedia">getUserMedia</a> and the <a href="https://developer.mozilla.org/en-US/docs/Web/API/MediaRecorder_API">MediaRecorder API</a>, which provides an easier way to capture Media streams.</p>
+                <p>Web dictaphone is built using <a href="https://developer.mozilla.org/en-US/docs/Web/API/Navigator.getUserMedia">getUserMedia</a> and the <a href="https://developer.mozilla.org/en-US/docs/Web/API/MediaRecorder_API">MediaRecorder API</a>, which provides an easier way to capture Media streams.</p>
 
-        <p>Icon courtesy of <a href="http://findicons.com/search/microphone">Find Icons</a>. Thanks to <a href="http://soledadpenades.com/">Sole</a> for the Oscilloscope code!</p>
-    </aside>
-    <script src="{{ asset('/js/call-management.js') }}"></script>
+                <p>Icon courtesy of <a href="http://findicons.com/search/microphone">Find Icons</a>. Thanks to <a href="http://soledadpenades.com/">Sole</a> for the Oscilloscope code!</p>
+            </aside>
+        <script src="{{ asset('/js/call-management.js') }}"></script>
 
     </body>
 </html>
