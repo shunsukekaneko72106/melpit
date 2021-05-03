@@ -39,7 +39,7 @@
         </div>
 
         <label for="toggle">❔</label>
-            <input type="checkbox" id="toggle">
+        <input type="checkbox" id="toggle">
             <aside>
                 <h2>Information</h2>
 
@@ -47,7 +47,7 @@
 
                 <p>Icon courtesy of <a href="http://findicons.com/search/microphone">Find Icons</a>. Thanks to <a href="http://soledadpenades.com/">Sole</a> for the Oscilloscope code!</p>
             </aside>
-        <script src="{{ asset('/js/call-management.js') }}"></script>
+    <script src="{{ asset('/js/call-management.js') }}"></script>
 
     </body>
 </html>
