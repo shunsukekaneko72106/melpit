@@ -21,7 +21,8 @@ Route::get('items/{item}', 'ItemsController@showItemDetail')->name('item');
 Route::get('email-newsletter', 'EmailNewsletterController@sendEmailNewsletterForm')->name('email-newsletter');
 //音声データ送信
 Route::get('call-management', 'SendVoiceDataController@sendVoiceDataForm')->name('call-management');
-
+//文字起こし画面
+Route::get('transcription', 'TranscriptionController@showForm')->name('transcription');
 
 
 
